@@ -399,8 +399,15 @@ header.masthead .intro-text .intro-heading {
   z-index: 2;
 }
 
+.img-size {
+	max-height: 200px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
 @media (min-width: 767px) {
-  #portfolio .portfolio-item {
+	#portfolio .portfolio-item {
     margin: 0 0 30px;
   }
 }
