@@ -47,4 +47,12 @@
     $('.navbar').removeClass('d-none');
   })
 
+	//captions on featherLight light box
+	$.featherlight.prototype.afterContent = function () {
+		var caption = this.$currentTarget.find('img').attr('title');
+		this.$instance.find('.caption').remove();
+		$('<div class="caption">').text(caption).appendTo(this.$instance.find('.featherlight-content'));
+	}
+
+
 })(jQuery); // End of use strict
