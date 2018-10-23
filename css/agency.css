@@ -700,10 +700,11 @@ header.masthead .intro-text .intro-heading {
 }
 
 section#contact {
-  background-color: #212529;
-  background-image: url("../img/map-image.png");
-  background-repeat: no-repeat;
-  background-position: center;
+	background-color: #212529;
+	/*background-image: url("../img/map-image.png");*/
+	background-image: url("../img/contact.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
 }
 
 section#contact .section-heading {
@@ -833,4 +834,8 @@ ul.social-buttons li a:active, ul.social-buttons li a:focus, ul.social-buttons l
 	color: black;
 	background: #e1e1e1;
 	padding: 1px 7px;
+}
+
+.strong-color {
+	color: #cba72b;
 }
